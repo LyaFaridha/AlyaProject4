@@ -37,7 +37,7 @@ fig2 = px.box(df, x='Processing Method', y=['Aroma', 'Flavor'],
 
 app.layout = html.Div(
     [
-        html.H1("Data Visualization"),
+        html.H1("Coffee Distribution"),
         dcc.Checklist(
             id='show-chart',
             options=[
